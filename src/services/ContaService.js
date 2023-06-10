@@ -22,7 +22,7 @@ module.exports = {
       return contaEncontrada;
     } catch (error) {
       throw {
-        messagem: error,
+        messagemj: error,
         success: false,
         status: 404,
         
